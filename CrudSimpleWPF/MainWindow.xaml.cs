@@ -34,8 +34,9 @@ namespace CrudSimpleWPF
             pueblaTabla();
 
         }
-
+        //Método para poblar la tabla de datos
         public void pueblaTabla() {
+            //Usamos la clase Entitity frame creada por microsoft para este propósito
             using (crudnetContext _context = new crudnetContext())
             {
                 listPer = _context.Personas.ToList();
@@ -49,21 +50,22 @@ namespace CrudSimpleWPF
 
             }
         }
-
+        //Listener del botón insertar
         private void botonInsertar_Click(object sender, RoutedEventArgs e)
         {
             c.insertar(textoNom.Text, textoApe.Text, comboGenero.Text);
             pueblaTabla();
         }
-
+        //Listener del botón actualizar
         private void botonActualizar_Click(object sender, RoutedEventArgs e)
         {
             c.actualizar(textoNom.Text, textoApe.Text, comboGenero.Text, idSelect);
             pueblaTabla();
         }
-
+        //Listener del botón buscar
         private void botonBuscar_Click(object sender, RoutedEventArgs e)
         {
+            //Comprobamos si se ha escrito una cadena vacía
             DataTable dt = c.buscar(textoBuscar.Text);
             if (textoBuscar.Text == "")
             {
@@ -80,7 +82,7 @@ namespace CrudSimpleWPF
         {
 
         }
-
+        // Listener para controlar el doble click del ratón
         private void tabla_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
             Persona p = (Persona)tabla.SelectedItem;
@@ -92,10 +94,16 @@ namespace CrudSimpleWPF
 
         }
 
+        // Listener para comprobar el botón de borrar
         private void botonBorrar_Click(object sender, RoutedEventArgs e)
         {
             c.borrar(idSelect);
             pueblaTabla();
+        }
+
+        private void textoNom_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

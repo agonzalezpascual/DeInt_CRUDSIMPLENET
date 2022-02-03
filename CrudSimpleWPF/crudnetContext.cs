@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace CrudSimpleWPF
 {
+    // Clase creada por Microsoft para conectarse con la base de datos y recoger la información
     public partial class crudnetContext : DbContext
     {
         public crudnetContext()

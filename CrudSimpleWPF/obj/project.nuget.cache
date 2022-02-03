@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dfm5cU6bN16GXl3mfoh8HZrV7bmlTMWAKKOtzVVQoSyAEkMuqGNx7G5Tt6Bi9k+4zVc6x67G5JaeucGd6ssEeA==",
+  "dgSpecHash": "3vw6grJlGFoceeiwNjLi1LViwtMVwru/jyp9G9WmurrYYe+sZhOyLX5KiKjnCJkmAzF4zdBEZCXu4fqqY+VRbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dam2\\Desktop\\Alfonso\\DeInt\\Segundo Trimestre\\Trabajo1\\AplicacionNET5\\CrudSimpleWPF\\CrudSimpleWPF.csproj",
+  "projectFilePath": "C:\\Users\\dam2\\Desktop\\Alfonso\\DeInt\\Segundo Trimestre\\Trabajo1\\AplicacionNET5\\DeInt_CRUDSIMPLENET\\CrudSimpleWPF\\CrudSimpleWPF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dam2\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\dam2\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

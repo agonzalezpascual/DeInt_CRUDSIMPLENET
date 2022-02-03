@@ -8,15 +8,15 @@
         Title="MainWindow" Height="550" Width="800">
     <Grid Margin="0,0,0,-6">
         <Canvas Background="Crimson" Height="111" VerticalAlignment="Top">
-            <TextBox x:Name="textoBuscar" Canvas.Left="338" TextWrapping="Wrap" Text="TextBox" Canvas.Top="44" Width="124" Height="23"/>
+            <TextBox x:Name="textoBuscar" Canvas.Left="338" TextWrapping="Wrap" Canvas.Top="44" Width="124" Height="23"/>
             <Button x:Name="botonBuscar" Content="Buscar" Canvas.Left="508" Canvas.Top="46" Click="botonBuscar_Click" Width="63"/>
         </Canvas>
         <TextBlock HorizontalAlignment="Left" Margin="28,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="276" FontWeight="Bold" FontSize="16" TextDecorations="{x:Null}" Foreground="White"><Run Text="C#: "/><Run Language="es-es" Text="MySQL/MariaDB : SMART CRUD"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="52,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="es-es" Text="Nombre"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="52,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="es-es" Text="Apellidos"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="52,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="es-es" Text="Género"/></TextBlock>
-        <TextBox x:Name="textoNom" HorizontalAlignment="Left" Margin="166,141,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textoApe" HorizontalAlignment="Left" Margin="166,174,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textoNom" HorizontalAlignment="Left" Margin="166,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="textoNom_TextChanged"/>
+        <TextBox x:Name="textoApe" HorizontalAlignment="Left" Margin="166,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <ComboBox x:Name="comboGenero" HorizontalAlignment="Left" Margin="166,211,0,0" VerticalAlignment="Top" Width="120">
             <ComboBoxItem Content="Hombre"/>
             <ComboBoxItem Content="Mujer"/>

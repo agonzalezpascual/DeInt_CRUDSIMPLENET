@@ -1864,11 +1864,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dam2\\Desktop\\Alfonso\\DeInt\\Segundo Trimestre\\Trabajo1\\AplicacionNET5\\CrudSimpleWPF\\CrudSimpleWPF.csproj",
+      "projectUniqueName": "C:\\Users\\dam2\\Desktop\\Alfonso\\DeInt\\Segundo Trimestre\\Trabajo1\\AplicacionNET5\\DeInt_CRUDSIMPLENET\\CrudSimpleWPF\\CrudSimpleWPF.csproj",
       "projectName": "CrudSimpleWPF",
-      "projectPath": "C:\\Users\\dam2\\Desktop\\Alfonso\\DeInt\\Segundo Trimestre\\Trabajo1\\AplicacionNET5\\CrudSimpleWPF\\CrudSimpleWPF.csproj",
+      "projectPath": "C:\\Users\\dam2\\Desktop\\Alfonso\\DeInt\\Segundo Trimestre\\Trabajo1\\AplicacionNET5\\DeInt_CRUDSIMPLENET\\CrudSimpleWPF\\CrudSimpleWPF.csproj",
       "packagesPath": "C:\\Users\\dam2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dam2\\Desktop\\Alfonso\\DeInt\\Segundo Trimestre\\Trabajo1\\AplicacionNET5\\CrudSimpleWPF\\obj\\",
+      "outputPath": "C:\\Users\\dam2\\Desktop\\Alfonso\\DeInt\\Segundo Trimestre\\Trabajo1\\AplicacionNET5\\DeInt_CRUDSIMPLENET\\CrudSimpleWPF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dam2\\AppData\\Roaming\\NuGet\\NuGet.Config",
